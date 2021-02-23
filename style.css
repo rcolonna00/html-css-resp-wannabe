@@ -75,6 +75,10 @@ img {
 /*MIE MODIFICHE FINO A 419PX*/
 @media screen and (max-width: 419px) {
 
+  *{
+    font-size: none;
+  }
+
   #steps .row>.left,
   #steps .row>.central,
   #steps .row>.right,
@@ -115,6 +119,33 @@ img {
   #why .row>.second,
   #why .row>.third {
   margin-top: 5%;
-}
+  }
 
 }
+
+@media screen and (max-width: 768px) {
+
+  
+  *{
+    font-size: 30px;
+  }
+
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right{
+    width: 48%;
+    padding: 1%;
+  }
+  
+  #steps .row>.right{
+    margin-left: 25%;
+  }
+
+  #why .row>.first,
+  #why .row>.second,
+  #why .row>.third {
+  margin-top: 5%;
+  }
+
+}
+
