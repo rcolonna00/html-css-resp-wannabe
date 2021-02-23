@@ -72,6 +72,7 @@ img {
   clear: both;
 }
 
+/*MIE MODIFICHE FINO A 419PX*/
 @media screen and (max-width: 419px) {
 
   #steps .row>.left,
@@ -83,9 +84,33 @@ img {
   width: 100%;
   }
 
+  img{
+    width: 30%;
+    height: auto;
+  }
+
+  #steps .row>.central,
+  #steps .row>.right,
+  #lezioni .row>.right {
+    margin-top: 7%;
+  }
+
   #steps .row>.left,
   #steps .row>.central,{
     margin-bottom: 5%;
   }
+
+  #why.grey div.row div.first img,
+  #why.grey div.row div.second img,
+  #why.grey div.row div.third img{
+    width: 20%;
+    height: auto;
+  }
+
+  #why .row>.first,
+  #why .row>.second,
+  #why .row>.third {
+  margin-top: 5%;
+}
 
 }
